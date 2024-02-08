@@ -1,0 +1,21 @@
+.information {
+  display: flex;
+  flex-direction: column;
+  gap: 80px;
+
+  h2 {
+    color: rgb(47, 47, 47);
+    font-family: Inter;
+    font-size: 64px;
+    font-weight: 500;
+    line-height: 100%;
+    margin: 0;
+  }
+}
+
+.cards {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 16px;
+  max-width: 1519px;
+}

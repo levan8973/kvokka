@@ -1,0 +1,28 @@
+.customCalendar {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.customNavigationLabel {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  width: 100%; /* Ширина родительского контейнера */
+  flex-direction: row; /* Устанавливаем порядок элементов в строку */
+  div {
+    order: 2; /* порядок элементов следующий год */
+  }
+  span:nth-child(2) {
+    order: 1; /* порядок элементов название года */
+  }
+  span:nth-child(3) {
+    order: 1; /* порядок элементов предыдущий месяц */
+  }
+  span:nth-child(4) {
+    order: 1; /* порядок элементов следующий месяц */
+  }
+  span:nth-child(5) {
+    order: 1; /* порядок элементов название месяца */
+  }
+}
